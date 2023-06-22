@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bizmeud" type="text/css"/>
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="left-container">
+        <img class="green-leaf" src="../img/green-leaf" alt="Green Leaf">
+        <div class="odin-container">
+            <img class="odin" src="../img/odin-lined.png" alt="Odin Logo">
+            <p id="odin-text">ODIN</p>
+        </div>
+        <p class="photo-credit">Photo by Hallie West on Unsplash</p>
+    </div> 
+
+    <div class="right-container">
+        <div class="top">
+            <p class="text">This is not a real online service! You know you need something </p>
+                <p>like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            </p>
+            <p></p>
+            <p id="p2">You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="form">
+            <p class="caption">Let's Do This!</p>
+            <form action="#">
+
+                <div class="input">
+                    <label for="first-name">FIRST NAME:</label>
+                    <input type="text" id="first-name" placeholder="Joe">
+                </div>
+                <div class="input">
+                    <label for="last-name">LAST NAME:</label>
+                    <input type="text" id="last-name" placeholder="Bloggs">
+                </div>
+                <div class="input">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" placeholder="joebloggs@email.com">
+                </div>
+                <div class="input">
+                    <label for="phone">PHONE:</label>
+                    <input type="number" id="phone" minlength="11" maxlength="11" placeholder="07123456789" required>
+                </div>
+                <div class="input">
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" id="password" minlength="6" required>
+                </div>
+                <div class="input">
+                    <label for="confirm-password">CONFIRM PASSWORD:</label>
+                    <input type="password" id="confirm-password" minlength="6" required>
+                </div>
+        </div>
+        <div class="bottom">
+                <button id="create">Create Account</button>
+            </form>
+                <p class="bottom-text">Already have an account? <a href="#">Log in</a></p>
+            </div>
+    </div>
+</body>
+</html>
