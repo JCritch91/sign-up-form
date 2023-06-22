@@ -38,7 +38,7 @@ body {
         text-align: center;
     }
 
-        .green-leaf{
+        .panda{
             position: absolute;
             width: 100%;
             height: 100%;
@@ -123,6 +123,16 @@ body {
                 border: solid 1px #E5E7EB;
                 border-radius: 6px;
                 height:20px;
+            }
+
+            #password:valid,
+            #confirm-password:valid{
+                border-color: green;
+            }
+
+            #password:invalid,
+            #confirm-password:invalid{
+                border-color: red;
             }
 
             input:focus{
